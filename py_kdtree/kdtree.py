@@ -90,7 +90,6 @@ class KDTree():
 
         mmap = np.memmap(self.mmap_file, dtype=self.dtype, mode='w+', shape=self.mmap_shape)
         
-        print("Total Depth: ",self.depth)
         start = time.time()
         if mmap_idxs is None:
             self._build_tree(X, I,mmap)
