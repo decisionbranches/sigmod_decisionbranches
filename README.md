@@ -1,6 +1,5 @@
-# Finding Needles in Massive Haystacks: Fast Search-By-Classification in Large-Scale Databases
-The repository contains the source code for the paper *"Finding Needles in Massive Haystacks: Fast
-Search-By-Classification in Large-Scale Databases"*. We show that our *decision branch* models (see figure) can heavily speed up rare-object searches in comparison to classic decision tree models. Unlike traditional approaches the whole data does not need to be scanned for our search but instead uses multidimensional index structures to only load the relevant data.
+# Finding Needles in Massive Haystacks: Fast Search-By-Classification in Large-Scale Data Catalogs
+The repository contains the source code for the paper *"Finding Needles in Massive Haystacks: Fast Search-By-Classification in Large-Scale Data Catalogs"*. We show that our *decision branch* models (see figure) can heavily speed up rare-object searches in comparison to classic decision tree models. Unlike traditional approaches the whole data does not need to be scanned for our search but instead uses multidimensional index structures to only load the relevant data.
 
 <p align="middle">
   <kbd>
