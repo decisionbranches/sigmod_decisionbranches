@@ -1,9 +1,12 @@
 # Finding Needles in Massive Haystacks: Fast Search-By-Classification in Large-Scale Data Catalogs
-The repository contains the source code for the paper *"Finding Needles in Massive Haystacks: Fast Search-By-Classification in Large-Scale Data Catalogs"*. We show that our *decision branch* models (see figure) can heavily speed up rare-object searches in comparison to classic decision tree models. Unlike traditional approaches the whole data does not need to be scanned for our search but instead uses multidimensional index structures to only load the relevant data.
+The repository contains the source code for the paper *"Finding Needles in Massive Haystacks: Fast Search-By-Classification in Large-Scale Data Catalogs"*. We show that our *Search-by-Classification* model (see left figure) can heavily speed up rare-object searches in comparison to classic decision tree models. Unlike traditional approaches the whole data does not need to be scanned for our search but instead uses multidimensional index structures to only load the relevant data. One use case for our search engine is looking for rare objects in massive catalogs of satellite imagery. On the right figure it is indicated how this search engine could look like. In the example we search for wind turbines (red rectangle) while we also determine some non-rare patches (purple rectangle) that should be excluded from the search.
 
 <p align="middle">
   <kbd>
     <img src="figures/figure.png" height="300" \>
+  </kbd>
+  <kbd>
+    <img src="figures/prototype_searchengine.png" height="150" \>
   </kbd>
 </p>
 
