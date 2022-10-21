@@ -6,7 +6,7 @@ The repository contains the source code for the paper *"Finding Needles in Massi
     <img src="figures/figure.png" height="300" \>
   </kbd>
   <kbd>
-    <img src="figures/prototype_searchengine.png" height="150" \>
+    <img src="figures/prototype_searchengine.png" height="200" \>
   </kbd>
 </p>
 
