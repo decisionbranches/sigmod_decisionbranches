@@ -13,10 +13,10 @@ This repository contains the source code for the paper *"Finding Needles in Mass
 ## Getting started
 To run the code, **Python3.8** is required. To run the code, we provide you with three options:
 
-1) Run the code in **Google Colab** (a first example is given in the notebook):
+1) Try out a first example in **Google Colab** (by clicking on the button on the right):
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/decisionbranches/sigmod_decisionbranches/blob/master/examples/pipeline.ipynb)
 
-For the following options clone the repository first with:
+For the following options clone the repository first with:\
 `git clone https://github.com/decisionbranches/sigmod_decisionbranches.git`
 
 2) **Virtuel environment**:
