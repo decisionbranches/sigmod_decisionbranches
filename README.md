@@ -34,7 +34,7 @@ docker run --rm -it decisionbranches bash #Start container & start Bash in it
 ```
 
 ## Structure
-The repository contains three directories. In `decisionbranches`, we include all source code required for the described decision branches models. We organize the code into Python and Cython components. The second part of our contribution includes the hybrid memory k-d trees whose implementation is located in the directory `py_kdtree`. Here, the compute-intensive parts implemented in Cython are moved to a subfolder. In the last directory `examples`, we provide you with multiple Python scripts for testing our developed methods. More information on that is given in the following section.
+The repository contains four directories. In `decisionbranches`, we include all source code required for the described decision branches models. We organize the code into Python and Cython components. The second part of our contribution includes the hybrid memory k-d trees whose implementation is located in the directory `py_kdtree`. Here, the compute-intensive parts implemented in Cython are moved to a subfolder. In `examples`, we provide you with multiple Python scripts for testing our developed methods. More information on that is given in the following section. The last directory `figures` contains all figures used within the repository.
 ```
 ├── decisionbranches 
 │   ├── cython # cython modules for performance relevant components
@@ -47,6 +47,10 @@ The repository contains three directories. In `decisionbranches`, we include all
 │   ├── pipeline.ipynb
 │   ├── pipeline.py
 │   └── run_experiment.py
+├── figures # Figures used within the repository
+│   ├── figure.png
+│   ├── pipeline.png
+│   └── prototype_searchengine.png
 ├── py_kdtree
 │   ├── cython # cython modules for performance relevant components
 │   ├── __init__.py
